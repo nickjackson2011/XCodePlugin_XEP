@@ -125,8 +125,7 @@ static NSLua	*__L		= nil;
 	return [NSDictionary dictionaryWithContentsOfFile:[__bundle_ pathForResource:@"XEPBlockTypes" ofType:@"plist"]];
 }
 
-//
-//
+
 - (id)initWithWindowNibName:(NSString *)windowNibName bundle:(NSBundle *)bundle
 {
 	self = [super initWithWindowNibName:windowNibName];
